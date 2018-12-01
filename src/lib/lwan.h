@@ -175,6 +175,7 @@ static ALWAYS_INLINE int16_t string_as_int16(const char *s)
 enum lwan_http_status {
     HTTP_SWITCHING_PROTOCOLS = 101,
     HTTP_OK = 200,
+    HTTP_NO_CONTENT = 204,
     HTTP_PARTIAL_CONTENT = 206,
     HTTP_MOVED_PERMANENTLY = 301,
     HTTP_TEMPORARY_REDIRECT = 307,

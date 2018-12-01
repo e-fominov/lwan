@@ -117,6 +117,7 @@ static const struct {
 } status_table[] = {
     STATUS(101, "Switching protcols", "Protocol is switching over from HTTP"),
     STATUS(200, "OK", "Success!"),
+    STATUS(204, "NO CONTENT", "The server has no content for requested resource."),
     STATUS(206, "Partial content", "Delivering part of requested resource."),
     STATUS(301, "Moved permanently", "This content has moved to another place."),
     STATUS(304, "Not modified", "The content has not changed since previous request."),
